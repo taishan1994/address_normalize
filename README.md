@@ -2,21 +2,21 @@
 根据地址提取省、市、区/县、街道，并进行标准化
 
 # 目录结构
-data：存放数据
---city.txt：城市
---province.txt：省
---county.txt：区、县
---street.txt：街道
---nor_city_to_city.json：城市-城市映射标准化
---nor_city_to_prov.json：根据城市获得省
---nor_county_to_city.json：根据区获得市
---nor_prov_to_prov.json：省-省标准化
---province_city.json：省-城市信息
---province_city_county.json：省-城市-区/县信息
---province_city_county_street.json：省-城市-区/县-街道信息
---process.py：得到上述文件的代码
-trie.py：构建省字典树、市字典树、区字典树、街道字典树
-address_normalize.py：主运行程序
+data：存放数据<br>
+--city.txt：城市<br>
+--province.txt：省<br>
+--county.txt：区、县<br>
+--street.txt：街道<br>
+--nor_city_to_city.json：城市-城市映射标准化<br>
+--nor_city_to_prov.json：根据城市获得省<br>
+--nor_county_to_city.json：根据区获得市<br>
+--nor_prov_to_prov.json：省-省标准化<br>
+--province_city.json：省-城市信息<br>
+--province_city_county.json：省-城市-区/县信息<br>
+--province_city_county_street.json：省-城市-区/县-街道信息<br>
+--process.py：得到上述文件的代码<br>
+trie.py：构建省字典树、市字典树、区字典树、街道字典树<br>
+address_normalize.py：主运行程序<br>
 
 # 使用方法
 ```python
